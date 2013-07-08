@@ -281,10 +281,7 @@ func (c *Context) startChild() error {
 	if err != nil {
 		return err
 	}
-	adminPort, err := findFreePort()
-	if err != nil {
-		return err
-	}
+	adminPort := 8000
 
 	c.appDir, err = ioutil.TempDir("", "")
 	if err != nil {

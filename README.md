@@ -41,7 +41,7 @@ this by changing the top of func init():
 It should be something like, values don't really matter:
 
 	instanceConfig.AppID = "testapp"
-	instanceConfig.APIPort = 0
+	instanceConfig.APIPort = 8000
 	instanceConfig.VersionID = "1.7.7"
 	instanceConfig.InstanceID = "instanceid"
 	instanceConfig.Datacenter = "instanceid"
