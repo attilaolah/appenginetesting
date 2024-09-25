@@ -1,5 +1,6 @@
-gae-go-testing
-==============
+# gae-go-testing ⚠️ archived
+
+> ⚠️ This repository is no longer maintained and is archived. The Go ecosystem has evolved a lot with regards to how it uses Context, and the App Engine service has also changed a lot in the meantime. It is unlikely that this library would still work today.
 
 Testing library for Go App Engine, giving you an appengine.Context fake that forwards to a dev_appserver.py child process.
 This library is fixed for go1 based on http://code.google.com/p/gae-go-testing/ .
