@@ -1,5 +1,6 @@
-appenginetesting
-===============
+# ⚠️ archived `gae-go-testing` fork
+
+> ⚠️ This repository is no longer maintained and is archived. The Go ecosystem has evolved a lot with regards to how it uses Context, and the App Engine service has also changed a lot in the meantime. It is unlikely that this library would still work today.
 
 Fork of [gae-go-testing](https://github.com/tenntenn/gae-go-testing) with a few minor changes:
 
